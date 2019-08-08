@@ -17,6 +17,12 @@
   "license": "ISC",
   "author": "Max Stankevich <max.stankevich.me@gmail.com>",
   "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "@types/*",
+      "packages/*"
+    ]
+  },
   "scripts": {
     "test": "echo no tests yet"
   }
