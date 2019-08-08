@@ -18,7 +18,11 @@
     "url": "https://github.com/gavar/emulsy.git"
   },
   "license": "ISC",
-  "author": "Max Stankevich <max.stankevich.me@gmail.com>",
+  "author": {
+    "name": "Max Stankevich",
+    "email": "max.stankevich.me@gmail.com",
+    "url": "https://github.com/gavar"
+  },
   "main": "index.js",
   "workspaces": {
     "packages": [
