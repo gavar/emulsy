@@ -41,6 +41,7 @@
   },
   "devDependencies": {
     "@wrench/commitlint-config": "^1.0.0-beta",
+    "@wrench/copycat-package": "^1.0.0-beta",
     "husky": "^3.0.0"
   }
 }
