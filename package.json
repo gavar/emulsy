@@ -13,7 +13,10 @@
   "bugs": {
     "url": "https://github.com/gavar/emulsy/issues"
   },
-  "repository": "git+https://github.com/gavar/emulsy.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gavar/emulsy.git"
+  },
   "license": "ISC",
   "author": "Max Stankevich <max.stankevich.me@gmail.com>",
   "main": "index.js",
