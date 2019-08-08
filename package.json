@@ -1,0 +1,23 @@
+{
+  "name": "emulsy",
+  "version": "1.0.0-beta.0",
+  "private": true,
+  "description": "Set of general purpose TypeScript modules inspired by Java API",
+  "keywords": [
+    "core",
+    "java",
+    "module",
+    "typescript"
+  ],
+  "homepage": "https://github.com/gavar/emulsy#readme",
+  "bugs": {
+    "url": "https://github.com/gavar/emulsy/issues"
+  },
+  "repository": "git+https://github.com/gavar/emulsy.git",
+  "license": "ISC",
+  "author": "Max Stankevich <max.stankevich.me@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo no tests yet"
+  }
+}
