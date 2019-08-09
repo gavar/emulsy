@@ -1,6 +1,6 @@
 {
   "name": "emulsy",
-  "version": "1.0.0-beta.0",
+  "version": "dev",
   "private": true,
   "description": "Set of general purpose TypeScript modules inspired by Java API",
   "keywords": [
@@ -31,6 +31,7 @@
     ]
   },
   "scripts": {
+    "format:pack": "fixpack && sort-package-json",
     "test": "echo no tests yet"
   },
   "husky": {
@@ -43,9 +44,15 @@
       "@wrench/commitlint-config"
     ]
   },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
   "devDependencies": {
+    "@types/node": "^12.7.1",
     "@wrench/commitlint-config": "^1.0.0-beta",
     "@wrench/copycat-package": "^1.0.0-beta",
-    "husky": "^3.0.0"
+    "@wrench/ts-config": "^1.0.0-beta",
+    "husky": "^3.0.0",
+    "typescript": "^3.5.3"
   }
 }
