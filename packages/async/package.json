@@ -1,0 +1,80 @@
+{
+  "name": "@emulsy/async",
+  "version": "1.0.0-beta",
+  "description": "Utility providing functions to work with asynchronous programs which may complete synchronously",
+  "keywords": [
+    "async",
+    "defer",
+    "each",
+    "filter",
+    "find",
+    "promise",
+    "then",
+    "typescript",
+    "utility"
+  ],
+  "homepage": "https://github.com/gavar/emulsy#readme",
+  "bugs": {
+    "url": "https://github.com/gavar/emulsy/labels/async"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gavar/emulsy.git",
+    "directory": "packages/async"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Max Stankevich",
+    "email": "max.stankevich.me@gmail.com",
+    "url": "https://github.com/gavar"
+  },
+  "files": [
+    "lib",
+    "es"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "yarn clean && roll --preserveModules",
+    "clean": "rimraf tmp out lib es bin",
+    "format": "yarn lint --fix",
+    "format:pack": "fixpack && sort-package-json",
+    "lint": "echo no linting yet",
+    "prepack": "yarn build",
+    "prepublishOnly": "yarn test && yarn run lint",
+    "test": "echo no tests yet"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  },
+  "dependencies": {
+    "@emulsy/util": ">=1.0.0-beta",
+    "lodash": "^4.17.13",
+    "tstt": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.136"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "copycat": {
+    "author": "../..",
+    "homepage": "../..",
+    "jest": "../..",
+    "license": "../..",
+    "publishConfig": "../..",
+    "repository": "../..",
+    "dependencies": {
+      "@emulsy/util": "../util",
+      "lodash": "../..",
+      "tstt": "../.."
+    }
+  },
+  "release": true,
+  "standard-version": {
+    "extends": "@wrench/standard-version-config",
+    "tag-prefix": "v/async/"
+  }
+}
