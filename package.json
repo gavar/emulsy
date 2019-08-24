@@ -35,12 +35,13 @@
     ]
   },
   "scripts": {
-    "build": "wsrun --bin npm -c pack",
-    "clean": "wsrun clean",
+    "build": "yarn wsrun --bin npm -c pack",
+    "clean": " yarn wsrun clean",
     "format:pack": "fixpack && sort-package-json && wsrun -c format:pack",
     "release": "semantic-release --no-ci",
     "sync:pack": "copycat-pack -r && typesync && yarn && yarn format:pack",
-    "test": "jest"
+    "test": "jest",
+    "wsrun": "wsrun -p @emulsy/*"
   },
   "husky": {
     "hooks": {
@@ -59,7 +60,6 @@
     "@types/jest": "^24.0.17",
     "@types/node": "^12.7.1",
     "@wrench/commitlint-config": "^1.0.0-beta",
-    "@wrench/copycat-package": "^1.0.0-beta",
     "@wrench/semantic-release-ws-preset-nodejs": "^1.0.0-beta",
     "@wrench/ts-config": "^1.0.0-beta",
     "husky": "^3.0.0",
@@ -79,7 +79,7 @@
   },
   "ywl": {
     "pattern": [
-      "@wrench/semantic-release*"
+      "@wrench/*"
     ]
   }
 }
