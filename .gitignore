@@ -213,3 +213,4 @@ typings/
 ### Project ###
 # all files name starting with '#'
 \#*
+.ywl
