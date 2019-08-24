@@ -4,10 +4,13 @@
   "private": true,
   "description": "Set of general purpose TypeScript modules inspired by Java API",
   "keywords": [
+    "async",
     "core",
     "java",
     "module",
-    "typescript"
+    "promise",
+    "typescript",
+    "util"
   ],
   "homepage": "https://github.com/gavar/emulsy#readme",
   "bugs": {
@@ -26,13 +29,18 @@
   "main": "index.js",
   "workspaces": {
     "packages": [
+      ".ywl/**",
       "@types/*",
       "packages/*"
     ]
   },
   "scripts": {
-    "format:pack": "fixpack && sort-package-json",
-    "test": "echo no tests yet"
+    "build": "wsrun --bin npm -c pack",
+    "clean": "wsrun clean",
+    "format:pack": "fixpack && sort-package-json && wsrun -c format:pack",
+    "release": "semantic-release --no-ci --dry-run",
+    "sync:pack": "copycat-pack -r && typesync && yarn && yarn format:pack",
+    "test": "jest"
   },
   "husky": {
     "hooks": {
@@ -44,15 +52,34 @@
       "@wrench/commitlint-config"
     ]
   },
-  "dependencies": {
-    "tslib": "^1.10.0"
+  "jest": {
+    "preset": "ts-jest"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.17",
     "@types/node": "^12.7.1",
     "@wrench/commitlint-config": "^1.0.0-beta",
     "@wrench/copycat-package": "^1.0.0-beta",
+    "@wrench/semantic-release-ws-preset-nodejs": "^1.0.0-beta",
     "@wrench/ts-config": "^1.0.0-beta",
     "husky": "^3.0.0",
-    "typescript": "^3.5.3"
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
+    "wsrun": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "commonDependencies": {
+    "tslib": "^1.10.0",
+    "lodash": "^4.17.13",
+    "tstt": "^1.0.4"
+  },
+  "ywl": {
+    "pattern": [
+      "@wrench/semantic-release*"
+    ]
   }
 }
