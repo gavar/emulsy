@@ -1,6 +1,6 @@
 {
   "name": "@emulsy/async",
-  "version": "1.0.0-beta",
+  "version": "1.0.0-beta.0",
   "description": "Utility providing functions to work with asynchronous programs which may complete synchronously",
   "keywords": [
     "async",
