@@ -1,6 +1,6 @@
 {
   "name": "emulsy",
-  "version": "dev",
+  "version": "0.0.0",
   "private": true,
   "description": "Set of general purpose TypeScript modules inspired by Java API",
   "keywords": [
