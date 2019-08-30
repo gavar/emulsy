@@ -269,6 +269,15 @@
   dependencies:
     find-up "^4.0.0"
 
+"@emulsy/async@beta":
+  version "1.0.0-beta.0"
+  resolved "https://registry.yarnpkg.com/@emulsy/async/-/async-1.0.0-beta.0.tgz#fcaa53c316de704d8f8153689804cf76aaf81574"
+  integrity sha512-uU9sxIGbMNlO/l0qtfyr1MM4kADvdifdplDHXgjcFMrNqC36bFYVxR+VfdbLCvz9Xd8oADeLp19gFxL3gkyKsA==
+  dependencies:
+    "@emulsy/util" ">=1.0.0-beta"
+    lodash "^4.17.13"
+    tstt "^1.0.4"
+
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
@@ -604,7 +613,7 @@
   dependencies:
     "@types/jest-diff" "*"
 
-"@types/lodash@^4.14.136", "@types/lodash@^4.14.137":
+"@types/lodash@^4.14.137":
   version "4.14.137"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.137.tgz#8a4804937dc6462274ffcc088df8f14fc1b368e2"
   integrity sha512-g4rNK5SRKloO+sUGbuO7aPtwbwzMgjK+bm9BBhLD7jGUiGR7zhwYEhSln/ihgYQBeIJ5j7xjyaYzrWTcu3UotQ==
@@ -646,61 +655,62 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@wrench/commitlint-config@^1.0.0-beta":
-  version "1.0.0-beta"
-  resolved "https://registry.yarnpkg.com/@wrench/commitlint-config/-/commitlint-config-1.0.0-beta.tgz#2c2d672652cf494e3d3fae36a884a706125df7ea"
-  integrity sha512-O9/TkB6X6sw3ai46RFHmZywj9ECXoV1FXVuU5/qta0lXFcPSb+HIu9ZUzOc9uRZ6uKyLEZ68vY8PfAuQnafdRQ==
+"@wrench/commitlint-config@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@wrench/commitlint-config/-/commitlint-config-0.0.2.tgz#cdf3f8b55d141aa2cb250d01020e1026d65b6eac"
+  integrity sha512-VR+S2K4ZJKfgbT784h57bRmt6VCJWHgFFV3UDA7SEJ2J/IcIGvmQZR3jrlCEzg9gQGStpT/WY4DH5qbzH9qVeg==
   dependencies:
     "@commitlint/cli" "^8.1.0"
     "@commitlint/config-conventional" "^8.1.0"
 
-"@wrench/loaders@>=1.0.0-beta":
-  version "1.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@wrench/loaders/-/loaders-1.0.0-beta.0.tgz#9978ecdfed2bcca94bed58d6ebca8e6fa13bfa8d"
-  integrity sha512-mGVU2vdQh9XCDY3Ix1+95nZpNa+zLHrj1asTVqPGgrP2vlgPRwQ9P4RCP2xxS6F28UYtR1pslDNQC2bmvXa/Xw==
+"@wrench/loaders@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@wrench/loaders/-/loaders-0.0.2.tgz#f167185648e32a4273fe77b72526a5af14f11bfc"
+  integrity sha512-SaPUECw2wClpYrcG9PDdIs3a4/Up/GQoI7JM45gnSiCNKJrEgZLvRmZ+so2cMNzZL8uWeqCxteSSNqdm1DkHKw==
   dependencies:
     colors "^1.3.0"
 
-"@wrench/semantic-release-git@>=1.0.0-beta":
-  version "1.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-git/-/semantic-release-git-1.0.0-beta.2.tgz#81a882f0a16ee6282d96ea58566c3a78cee50022"
-  integrity sha512-Vi6ExPI0rjYXS/hqV/aDYI5uGmn4umy3sjQVEI9pWzdTPkSuRoI7HWBD7FMCvXJKIUdqGuDRZBFVZVt9yb4kQA==
+"@wrench/semantic-release-git@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-git/-/semantic-release-git-0.0.2.tgz#c6ec35db8f752bfcad10207657828a3616cb2b45"
+  integrity sha512-Iz0mWvNKQRyIkeuI3mBzkCpxljk1dKlj/KozyXXooev+1FGXvdLHfA6YHGSKBM/AMz91N+cowbBFO8Mi1AsMkg==
   dependencies:
     "@semantic-release/git" "^7.0.16"
-    "@wrench/semantic-release" ">=1.0.0-beta"
+    "@wrench/semantic-release" "^0.0.2"
     lodash "^4.17.4"
     signale "^1.2.1"
 
-"@wrench/semantic-release-npm@>=1.0.0-beta":
-  version "1.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-npm/-/semantic-release-npm-1.0.0-beta.2.tgz#d5a7e136300da44034278eb6d37544d2578f5616"
-  integrity sha512-UCN3IbjnSiP173bezCuyw5nAOEWSGoIqdtOcvlg1uv2x+vl9J2eYDp5qBQKuVHfnefW+smUFfug9s2Gh5gbo6w==
+"@wrench/semantic-release-npm@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-npm/-/semantic-release-npm-0.0.2.tgz#59189504bdd913ef503d281b0454ef859a3ecad5"
+  integrity sha512-8yoGVopsXSoaM+OvUNkwQtpOoM0UG7wkbH6Kuw0GhLpzcZlLWnU07Y5rSSZbbLkZ/MqjBk8ONsKlTrtUcH06uA==
   dependencies:
     "@semantic-release/npm" "^5.2.0-beta.5"
-    "@wrench/semantic-release" ">=1.0.0-beta"
+    "@wrench/semantic-release" "^0.0.2"
     execa "^1.0.0"
+    fs-extra "^8.1.0"
 
-"@wrench/semantic-release-ws-preset-nodejs@^1.0.0-beta":
-  version "1.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-ws-preset-nodejs/-/semantic-release-ws-preset-nodejs-1.0.0-beta.2.tgz#73e68531a2eb477e8fb6d433bc4c589b30c76d5d"
-  integrity sha512-sbJUK5yY9SQ+1HbtVIA8qJLxcZTORy09F1rcnYGKMJbDODwR8K2xSkj3yWuaCFYrZL1ngvwQUQmTRr+1kKMDdw==
+"@wrench/semantic-release-ws-preset-nodejs@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-ws-preset-nodejs/-/semantic-release-ws-preset-nodejs-0.0.2.tgz#c97b0d97211db68eafbe7fca7e8f570d3454b5ba"
+  integrity sha512-t2SrYyUXH6uPMCifKQ2fPQPPQs+z6d7tGayejuiQla9K/dv7bOznoQHvaKV88NIukbAdoerMmE2bFreQCAIXhw==
   dependencies:
     "@semantic-release/changelog" "^3.0.4"
     "@semantic-release/commit-analyzer" "^7.0.0-beta.1"
     "@semantic-release/release-notes-generator" "^7.3.0"
-    "@wrench/loaders" ">=1.0.0-beta"
-    "@wrench/semantic-release-git" ">=1.0.0-beta"
-    "@wrench/semantic-release-npm" ">=1.0.0-beta"
-    "@wrench/semantic-release-ws" ">=1.0.0-beta"
+    "@wrench/loaders" "^0.0.2"
+    "@wrench/semantic-release-git" "^0.0.2"
+    "@wrench/semantic-release-npm" "^0.0.2"
+    "@wrench/semantic-release-ws" "^0.0.2"
 
-"@wrench/semantic-release-ws@>=1.0.0-beta":
-  version "1.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-ws/-/semantic-release-ws-1.0.0-beta.2.tgz#7c37daff2243b7c381450792d1b6575af4fc4aa0"
-  integrity sha512-OVR+5s+rsEITXts97nD44/1Mkv3hL8WF2o/CHBFwHamX8T9J7w6AVWPQarzGtGVM8Kb7N4fyCArRuGRvMnG3FA==
+"@wrench/semantic-release-ws@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-ws/-/semantic-release-ws-0.0.2.tgz#5232fe7d3f7fb4bf0fc6ab3e57b9aab544c8e6e7"
+  integrity sha512-2vwOyExK8aTGO3/gz37sd1RPDjG85sJ254sl+bPB5DaA/HRLNSzVYJCK6W6LSEYs3tr3KS9BWj4J6HuA7cdPPQ==
   dependencies:
-    "@emulsy/async" "^1.0.0-beta"
+    "@emulsy/async" beta
     "@semantic-release/error" "^2.2.0"
-    "@wrench/semantic-release" ">=1.0.0-beta"
+    "@wrench/semantic-release" "^0.0.2"
     cli-table3 "^0.5.1"
     colors "^1.3.0"
     find-up "^3.0.0"
@@ -712,21 +722,22 @@
     tslib "^1.10.0"
     yargs "^12.0.0"
 
-"@wrench/semantic-release@>=1.0.0-beta":
-  version "1.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release/-/semantic-release-1.0.0-beta.2.tgz#3bbc6e732595938f11eabb9513d744e6e5659640"
-  integrity sha512-1WnE+GY1jEzIQGAaROhPk6LVYhsTGp8+qX9fQ7njkPjHhM3npPosuqNoqbFtrG8E7TG1HcIDwYeWpCZdSUiiPg==
+"@wrench/semantic-release@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release/-/semantic-release-0.0.2.tgz#5859dcb79f8c294f9459249b0963d6c68765595c"
+  integrity sha512-Ssf+egV+XLVLO1IEdIFsEO4kPgD3v2LA+xI2BmyyjzhZ0TKol/rAYLS1TEMm+R+DrviMOaX7g9zgSwynzr4Bkw==
   dependencies:
-    "@emulsy/async" "^1.0.0-beta"
+    "@emulsy/async" beta
     cosmiconfig "^5.0.1"
     execa "^1.0.0"
     lodash "^4.17.4"
+    semver "^5.4.1"
     signale "^1.2.1"
 
-"@wrench/ts-config@^1.0.0-beta":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@wrench/ts-config/-/ts-config-1.0.0-beta.1.tgz#096d1dda9b444c3c3379c89472fa46853f47616a"
-  integrity sha512-+3g/X2ZEwePL3Vem0RF0++HGpzX/MsvQ2mbb6m/SUqPse9K28BxbokhhT/wXGpYkY+u1PJx0Gp5MjFrQE9596w==
+"@wrench/ts-config@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@wrench/ts-config/-/ts-config-0.0.2.tgz#04cac8e4bd0f8ac02080a9f8219f0f6b48ea7525"
+  integrity sha512-fqKnXLY6U/M1e5OileFaX7hHBLFA1vJ1gSafHyVXWG9Z9CGWugjM4Wpjvud3YY/Ubsd2imTZWLsTqSADi2Kpkw==
 
 JSONStream@^1.0.4, JSONStream@^1.3.4, JSONStream@^1.3.5:
   version "1.3.5"
@@ -2324,7 +2335,7 @@ from2@^2.1.0, from2@^2.3.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-fs-extra@^8.0.0:
+fs-extra@^8.0.0, fs-extra@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
   integrity sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==
