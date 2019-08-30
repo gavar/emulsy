@@ -43,7 +43,7 @@
     "preset": "ts-jest"
   },
   "dependencies": {
-    "@emulsy/lang": ">=1.0.0-beta",
+    "@emulsy/lang": "^1.0.0-beta",
     "lodash": "^4.17.13"
   },
   "devDependencies": {
@@ -53,12 +53,12 @@
     "access": "public"
   },
   "copycat": {
-    "author": "../..",
-    "homepage": "../..",
     "jest": "../..",
+    "author": "../..",
     "license": "../..",
-    "publishConfig": "../..",
+    "homepage": "../..",
     "repository": "../..",
+    "publishConfig": "../..",
     "dependencies": {
       "lodash": "../..",
       "@emulsy/lang": "../lang"

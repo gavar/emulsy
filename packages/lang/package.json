@@ -37,7 +37,7 @@
     "format": "yarn lint --fix",
     "format:pack": "fixpack && sort-package-json",
     "lint": "echo no linting yet",
-    "prepack": "yarn build",
+    "prepack": "copycat-pack && yarn build",
     "prepublishOnly": "yarn test && yarn run lint",
     "test": "echo no tests yet"
   },
@@ -49,12 +49,12 @@
     "access": "public"
   },
   "copycat": {
-    "author": "../..",
-    "homepage": "../..",
     "jest": "../..",
+    "author": "../..",
     "license": "../..",
-    "publishConfig": "../..",
-    "repository": "../.."
+    "homepage": "../..",
+    "repository": "../..",
+    "publishConfig": "../.."
   },
   "release": true,
   "standard-version": {

@@ -41,7 +41,7 @@
     "format": "yarn lint --fix",
     "format:pack": "fixpack && sort-package-json",
     "lint": "echo no linting yet",
-    "prepack": "yarn build",
+    "prepack": "copycat-pack && yarn build",
     "prepublishOnly": "yarn test && yarn run lint",
     "test": "echo no tests yet"
   },
@@ -49,7 +49,7 @@
     "preset": "ts-jest"
   },
   "dependencies": {
-    "@emulsy/util": ">=1.0.0-beta",
+    "@emulsy/util": "^1.0.0-beta",
     "lodash": "^4.17.13",
     "tstt": "^1.0.4"
   },
@@ -60,12 +60,12 @@
     "access": "public"
   },
   "copycat": {
-    "author": "../..",
-    "homepage": "../..",
     "jest": "../..",
+    "author": "../..",
     "license": "../..",
-    "publishConfig": "../..",
+    "homepage": "../..",
     "repository": "../..",
+    "publishConfig": "../..",
     "dependencies": {
       "@emulsy/util": "../util",
       "lodash": "../..",
