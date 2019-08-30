@@ -591,7 +591,7 @@
     registry-auth-token "^4.0.0"
     semver "^5.5.0"
 
-"@semantic-release/release-notes-generator@^7.1.2", "@semantic-release/release-notes-generator@^7.3.0":
+"@semantic-release/release-notes-generator@^7.1.2":
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-7.3.0.tgz#b94f3d84d7071eb8e921b53a9729ca48722e7c0f"
   integrity sha512-6ozBLHM9XZR6Z8PFSKssLtwBYc5l1WOnxj034F8051QOo3TMKDDPKwdj2Niyc+e7ru7tGa3Ftq7nfN0YnD6//A==
@@ -741,12 +741,21 @@
     "@commitlint/cli" "^8.1.0"
     "@commitlint/config-conventional" "^8.1.0"
 
-"@wrench/loaders@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@wrench/loaders/-/loaders-0.0.2.tgz#f167185648e32a4273fe77b72526a5af14f11bfc"
-  integrity sha512-SaPUECw2wClpYrcG9PDdIs3a4/Up/GQoI7JM45gnSiCNKJrEgZLvRmZ+so2cMNzZL8uWeqCxteSSNqdm1DkHKw==
+"@wrench/loaders@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@wrench/loaders/-/loaders-0.0.3.tgz#66cec713090affeb7ccc40a2945ebce404474f4b"
+  integrity sha512-cIWXwJtd/sp3JcXe/xu9TNAtC3pOQeA0Dmtiv2jh2gDrAEgJlksp8Fnok7lpgun07e+4GjvqXpH1FbxUOWuxMA==
   dependencies:
     colors "^1.3.0"
+
+"@wrench/semantic-release-changelog@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-changelog/-/semantic-release-changelog-0.0.3.tgz#54500064df449a97effafaf3e1c7b673fd1e4af3"
+  integrity sha512-NOf4DdQoJEjdMFYWdZKa5Ci4d/FJ663JJW1KpyQPSVXnRxDCC8/9QNsBcQoSZb6hDbcgz+kle0xW19PQ83yFfg==
+  dependencies:
+    "@semantic-release/changelog" "^3.0.4"
+    "@wrench/semantic-release" "^0.0.2"
+    lodash "^4.17.4"
 
 "@wrench/semantic-release-git@^0.0.2":
   version "0.0.2"
@@ -758,33 +767,43 @@
     lodash "^4.17.4"
     signale "^1.2.1"
 
-"@wrench/semantic-release-npm@^0.0.2":
+"@wrench/semantic-release-notes-generator@^0.0.2":
   version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-npm/-/semantic-release-npm-0.0.2.tgz#59189504bdd913ef503d281b0454ef859a3ecad5"
-  integrity sha512-8yoGVopsXSoaM+OvUNkwQtpOoM0UG7wkbH6Kuw0GhLpzcZlLWnU07Y5rSSZbbLkZ/MqjBk8ONsKlTrtUcH06uA==
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-notes-generator/-/semantic-release-notes-generator-0.0.2.tgz#f8b6e3f9ebe65c78dce3b332b099e23c1e8c966d"
+  integrity sha512-mVEq73POXQ9Y1EoKcwMkiOwqz46QZwNDGmv06dESYQwUN9XDBNXsAA9T20zQQaW8Ti4Pvuynwfdb3J4ymDQiAg==
+  dependencies:
+    "@semantic-release/release-notes-generator" "^7.1.2"
+    "@wrench/semantic-release" "^0.0.2"
+    lodash "^4.17.4"
+    semver "^5.4.1"
+
+"@wrench/semantic-release-npm@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-npm/-/semantic-release-npm-0.0.3.tgz#d491448c87cd9a6902ec695e3d9d54bdb14ef3d0"
+  integrity sha512-504MldXSh8CHwly4jHAEIGcoOdy/SSogPaZsW6owzTyOag9OWa1BhD8cLw9bEdWmKSHxd4Hf64fB4T8lNfrICg==
   dependencies:
     "@semantic-release/npm" "^5.2.0-beta.5"
     "@wrench/semantic-release" "^0.0.2"
     execa "^1.0.0"
     fs-extra "^8.1.0"
 
-"@wrench/semantic-release-ws-preset-nodejs@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-ws-preset-nodejs/-/semantic-release-ws-preset-nodejs-0.0.2.tgz#c97b0d97211db68eafbe7fca7e8f570d3454b5ba"
-  integrity sha512-t2SrYyUXH6uPMCifKQ2fPQPPQs+z6d7tGayejuiQla9K/dv7bOznoQHvaKV88NIukbAdoerMmE2bFreQCAIXhw==
+"@wrench/semantic-release-ws-preset-nodejs@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-ws-preset-nodejs/-/semantic-release-ws-preset-nodejs-0.0.4.tgz#a9e8f31175dbe7277b327ceb7cf0d9383c7aa9ad"
+  integrity sha512-7GRQedF7xIiGF0dl29BWhvQfmHdsMX6gouU+iPrNCHqSyPoRg3zL3JG03Ghaz1fbm0sCmjGc2hCjMUue4fX7JQ==
   dependencies:
-    "@semantic-release/changelog" "^3.0.4"
     "@semantic-release/commit-analyzer" "^7.0.0-beta.1"
-    "@semantic-release/release-notes-generator" "^7.3.0"
-    "@wrench/loaders" "^0.0.2"
+    "@wrench/loaders" "^0.0.3"
+    "@wrench/semantic-release-changelog" "^0.0.3"
     "@wrench/semantic-release-git" "^0.0.2"
-    "@wrench/semantic-release-npm" "^0.0.2"
-    "@wrench/semantic-release-ws" "^0.0.2"
+    "@wrench/semantic-release-notes-generator" "^0.0.2"
+    "@wrench/semantic-release-npm" "^0.0.3"
+    "@wrench/semantic-release-ws" "^0.0.3"
 
-"@wrench/semantic-release-ws@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-ws/-/semantic-release-ws-0.0.2.tgz#5232fe7d3f7fb4bf0fc6ab3e57b9aab544c8e6e7"
-  integrity sha512-2vwOyExK8aTGO3/gz37sd1RPDjG85sJ254sl+bPB5DaA/HRLNSzVYJCK6W6LSEYs3tr3KS9BWj4J6HuA7cdPPQ==
+"@wrench/semantic-release-ws@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-ws/-/semantic-release-ws-0.0.3.tgz#4f4ed1e2732d716fdec6611c0d10f7b3b00ad595"
+  integrity sha512-0nROnWQG3NE2xxQhl/MGIy3L4dS6gaLmNuoCQOQI9YcsmGOsikaVVenrAmhI9zyEL/Vdbe2tkSfd1oksVWqjSw==
   dependencies:
     "@emulsy/async" beta
     "@semantic-release/error" "^2.2.0"
@@ -6093,7 +6112,7 @@ sax@^1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-semantic-release@^16.0.0-beta.22:
+semantic-release@^16.0.0-beta:
   version "16.0.0-beta.22"
   resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-16.0.0-beta.22.tgz#d0b0b28da7c055a4f8665779b2b468b34d74b363"
   integrity sha512-E4RAIlXdPcqJPRms3UkzpdlBhN3Fa5RPoO13sFlMijlNqwAelmowtcc6Ik4IgJUJHQ+7G6ESKxfZ6y9qSs1nNw==
