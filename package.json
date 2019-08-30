@@ -59,9 +59,9 @@
   "devDependencies": {
     "@types/jest": "^24.0.17",
     "@types/node": "^12.7.1",
-    "@wrench/commitlint-config": "^1.0.0-beta",
-    "@wrench/semantic-release-ws-preset-nodejs": "^1.0.0-beta",
-    "@wrench/ts-config": "^1.0.0-beta",
+    "@wrench/commitlint-config": "^0.0.2",
+    "@wrench/semantic-release-ws-preset-nodejs": "^0.0.2",
+    "@wrench/ts-config": "^0.0.2",
     "husky": "^3.0.0",
     "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
