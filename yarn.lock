@@ -733,7 +733,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@wrench/commitlint-config@^0.0.2":
+"@wrench/commitlint-config@>=0.0.2 <1.0.0":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@wrench/commitlint-config/-/commitlint-config-0.0.2.tgz#cdf3f8b55d141aa2cb250d01020e1026d65b6eac"
   integrity sha512-VR+S2K4ZJKfgbT784h57bRmt6VCJWHgFFV3UDA7SEJ2J/IcIGvmQZR3jrlCEzg9gQGStpT/WY4DH5qbzH9qVeg==
@@ -741,80 +741,80 @@
     "@commitlint/cli" "^8.1.0"
     "@commitlint/config-conventional" "^8.1.0"
 
-"@wrench/executable@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@wrench/executable/-/executable-0.0.3.tgz#5c28f5dbaf106f0b277760b8e4acf85794637111"
-  integrity sha512-OCP1DRLLo6UIfpCr51KXakItgmaG4ooSb5TRBOIuEbtP1R6nctEIeQfMlVttJdLLS6QxuGw/VUipHaHNyyf3pQ==
+"@wrench/executable@>=0.0.4 <1.0.0":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@wrench/executable/-/executable-0.0.4.tgz#cc8df4cb4d340a8f692b50b7dfdff0ad09f3ac42"
+  integrity sha512-PaNlUdbe++tECbRcOH4AweuU1YTMPZ6B9M7HBkeWHY64jEOHeT4xBCwgp8O8kB4tTJ8gjMu9JEqGa45w6/PQUA==
   dependencies:
-    "@wrench/loaders" "^0.0.3"
+    "@wrench/loaders" ">=0.0.3 <1.0.0"
 
-"@wrench/loaders@^0.0.3":
+"@wrench/loaders@>=0.0.3 <1.0.0":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@wrench/loaders/-/loaders-0.0.3.tgz#66cec713090affeb7ccc40a2945ebce404474f4b"
   integrity sha512-cIWXwJtd/sp3JcXe/xu9TNAtC3pOQeA0Dmtiv2jh2gDrAEgJlksp8Fnok7lpgun07e+4GjvqXpH1FbxUOWuxMA==
   dependencies:
     colors "^1.3.0"
 
-"@wrench/semantic-release-changelog@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-changelog/-/semantic-release-changelog-0.0.3.tgz#54500064df449a97effafaf3e1c7b673fd1e4af3"
-  integrity sha512-NOf4DdQoJEjdMFYWdZKa5Ci4d/FJ663JJW1KpyQPSVXnRxDCC8/9QNsBcQoSZb6hDbcgz+kle0xW19PQ83yFfg==
+"@wrench/semantic-release-changelog@>=0.0.4 <1.0.0":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-changelog/-/semantic-release-changelog-0.0.4.tgz#2e50d57464403f2002d2d7d71ee8c545f12bbc23"
+  integrity sha512-rfMteV3g6ZjfWsCXjvCLWX4FDafZh5xYrvIThozpjED8/RcY0oBIC9UQ4EDjBni+li5PSvJL+CtPtiXi3jAXJg==
   dependencies:
     "@semantic-release/changelog" "^3.0.4"
-    "@wrench/semantic-release" "^0.0.2"
+    "@wrench/semantic-release" ">=0.0.3 <1.0.0"
     lodash "^4.17.4"
 
-"@wrench/semantic-release-git@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-git/-/semantic-release-git-0.0.2.tgz#c6ec35db8f752bfcad10207657828a3616cb2b45"
-  integrity sha512-Iz0mWvNKQRyIkeuI3mBzkCpxljk1dKlj/KozyXXooev+1FGXvdLHfA6YHGSKBM/AMz91N+cowbBFO8Mi1AsMkg==
+"@wrench/semantic-release-git@>=0.0.3 <1.0.0":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-git/-/semantic-release-git-0.0.3.tgz#12f706df6c6f3d15f30611dd5d1fab28da078c6f"
+  integrity sha512-dudR7DPS7If56/SnEm+Ac5ZrdbyH8TTKwI6VGmaLV/sUGzHHeXptnXGwGLSTWmL/IqWexFBKrHYln4Jf8doEvQ==
   dependencies:
     "@semantic-release/git" "^7.0.16"
-    "@wrench/semantic-release" "^0.0.2"
+    "@wrench/semantic-release" ">=0.0.3 <1.0.0"
     lodash "^4.17.4"
     signale "^1.2.1"
 
-"@wrench/semantic-release-notes-generator@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-notes-generator/-/semantic-release-notes-generator-0.0.2.tgz#f8b6e3f9ebe65c78dce3b332b099e23c1e8c966d"
-  integrity sha512-mVEq73POXQ9Y1EoKcwMkiOwqz46QZwNDGmv06dESYQwUN9XDBNXsAA9T20zQQaW8Ti4Pvuynwfdb3J4ymDQiAg==
+"@wrench/semantic-release-notes-generator@>=0.0.3 <1.0.0":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-notes-generator/-/semantic-release-notes-generator-0.0.3.tgz#60f2d6e7ab142b5b4af857361ee6e44d4f6ca145"
+  integrity sha512-W4ONndqdtjA3nFSuRKWfdQoz/Kyn8V2AACJQJKAkmiNvacBLgdG2/eEW12Yl8cXUj5FbQTwKwaP2aHLPcylAiQ==
   dependencies:
     "@semantic-release/release-notes-generator" "^7.1.2"
-    "@wrench/semantic-release" "^0.0.2"
+    "@wrench/semantic-release" ">=0.0.3 <1.0.0"
     lodash "^4.17.4"
     semver "^5.4.1"
 
-"@wrench/semantic-release-npm@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-npm/-/semantic-release-npm-0.0.3.tgz#d491448c87cd9a6902ec695e3d9d54bdb14ef3d0"
-  integrity sha512-504MldXSh8CHwly4jHAEIGcoOdy/SSogPaZsW6owzTyOag9OWa1BhD8cLw9bEdWmKSHxd4Hf64fB4T8lNfrICg==
+"@wrench/semantic-release-npm@>=0.0.4 <1.0.0":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-npm/-/semantic-release-npm-0.0.4.tgz#7e76ba5aef59f87610195ad346e9d04572b5f25e"
+  integrity sha512-pq2NQBOOaSpjeWwt0FjGMhSDdv6gJ+d8DHfI+/Vku1s2jg3CzX6qQHcbzL2f0bTZ9e0oXbeNig29bsfGCdEmzw==
   dependencies:
     "@semantic-release/npm" "^5.2.0-beta.5"
-    "@wrench/semantic-release" "^0.0.2"
+    "@wrench/semantic-release" ">=0.0.3 <1.0.0"
     execa "^1.0.0"
     fs-extra "^8.1.0"
 
-"@wrench/semantic-release-ws-preset-nodejs@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-ws-preset-nodejs/-/semantic-release-ws-preset-nodejs-0.0.4.tgz#a9e8f31175dbe7277b327ceb7cf0d9383c7aa9ad"
-  integrity sha512-7GRQedF7xIiGF0dl29BWhvQfmHdsMX6gouU+iPrNCHqSyPoRg3zL3JG03Ghaz1fbm0sCmjGc2hCjMUue4fX7JQ==
+"@wrench/semantic-release-ws-preset-nodejs@>=0.0.5 <1.0.0":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-ws-preset-nodejs/-/semantic-release-ws-preset-nodejs-0.0.6.tgz#7fb49f7807ba479d1af78031b5b8592f14829a9b"
+  integrity sha512-VS9QONUiGu1AVcEV5oDHMgtGZANYJYVIcWVW8CJGmEc1lJYtnAQKfVgW8o0Rf7RtxIrnv0ZZR0XNoVzthvShGQ==
   dependencies:
     "@semantic-release/commit-analyzer" "^7.0.0-beta.1"
-    "@wrench/loaders" "^0.0.3"
-    "@wrench/semantic-release-changelog" "^0.0.3"
-    "@wrench/semantic-release-git" "^0.0.2"
-    "@wrench/semantic-release-notes-generator" "^0.0.2"
-    "@wrench/semantic-release-npm" "^0.0.3"
-    "@wrench/semantic-release-ws" "^0.0.3"
+    "@wrench/loaders" ">=0.0.3 <1.0.0"
+    "@wrench/semantic-release-changelog" ">=0.0.4 <1.0.0"
+    "@wrench/semantic-release-git" ">=0.0.3 <1.0.0"
+    "@wrench/semantic-release-notes-generator" ">=0.0.3 <1.0.0"
+    "@wrench/semantic-release-npm" ">=0.0.4 <1.0.0"
+    "@wrench/semantic-release-ws" ">=0.0.5 <1.0.0"
 
-"@wrench/semantic-release-ws@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-ws/-/semantic-release-ws-0.0.3.tgz#4f4ed1e2732d716fdec6611c0d10f7b3b00ad595"
-  integrity sha512-0nROnWQG3NE2xxQhl/MGIy3L4dS6gaLmNuoCQOQI9YcsmGOsikaVVenrAmhI9zyEL/Vdbe2tkSfd1oksVWqjSw==
+"@wrench/semantic-release-ws@>=0.0.5 <1.0.0":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release-ws/-/semantic-release-ws-0.0.5.tgz#24cb30cd62078ac8d10aab56a02abf0b3d8fc926"
+  integrity sha512-mu8GdsdZLKTzq/6c5k9fu7slRoGdnreQymN/GLBad0AH3zx7py5+XjJwvoKtsOO5pEBPLMIBNIym785Musu4xg==
   dependencies:
     "@emulsy/async" beta
     "@semantic-release/error" "^2.2.0"
-    "@wrench/semantic-release" "^0.0.2"
+    "@wrench/semantic-release" ">=0.0.3 <1.0.0"
     cli-table3 "^0.5.1"
     colors "^1.3.0"
     find-up "^3.0.0"
@@ -826,29 +826,28 @@
     tslib "^1.10.0"
     yargs "^12.0.0"
 
-"@wrench/semantic-release@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@wrench/semantic-release/-/semantic-release-0.0.2.tgz#5859dcb79f8c294f9459249b0963d6c68765595c"
-  integrity sha512-Ssf+egV+XLVLO1IEdIFsEO4kPgD3v2LA+xI2BmyyjzhZ0TKol/rAYLS1TEMm+R+DrviMOaX7g9zgSwynzr4Bkw==
+"@wrench/semantic-release@>=0.0.3 <1.0.0":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@wrench/semantic-release/-/semantic-release-0.0.3.tgz#6781c537a7d6424d5904ffb51a2f103c04939ea7"
+  integrity sha512-5Pgh2LYOz9Mnt8Uf6gv6HO2SAena0FfVSoTOgnXy5AtsfIQCDyR0sAkVRWbzTKPcDPQLS+s1gZ2xtALfMjoidw==
   dependencies:
     "@emulsy/async" beta
     cosmiconfig "^5.0.1"
-    execa "^1.0.0"
     lodash "^4.17.4"
     semver "^5.4.1"
     signale "^1.2.1"
 
-"@wrench/ts-config@^0.0.2":
+"@wrench/ts-config@>=0.0.2 <1.0.0":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@wrench/ts-config/-/ts-config-0.0.2.tgz#04cac8e4bd0f8ac02080a9f8219f0f6b48ea7525"
   integrity sha512-fqKnXLY6U/M1e5OileFaX7hHBLFA1vJ1gSafHyVXWG9Z9CGWugjM4Wpjvud3YY/Ubsd2imTZWLsTqSADi2Kpkw==
 
-"@wrench/ywl@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@wrench/ywl/-/ywl-0.0.3.tgz#a3d0ebcfa4d0deb5280eafdd6a37e7e06c7f287b"
-  integrity sha512-CaI2714QvZXeKNAY5eFadTHA/UWq2lSPmJzXjL2pnWf4pjI26QpvDCOce6OrbpWnsblOQcvTUbfe1/5Nmtg95A==
+"@wrench/ywl@>=0.0.3 <1.0.0":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@wrench/ywl/-/ywl-0.0.4.tgz#f5b25df62bd999d6a7816ee03f113e8f41ddf8ed"
+  integrity sha512-AcoOaJt9SUhqcSreMqVf223i8FCXn/PxPDXKK11ZxsufEJciY5BgSEK6eS7ofp+2iUnDfFRCM/vdFm7SyH+IgA==
   dependencies:
-    "@wrench/executable" "^0.0.3"
+    "@wrench/executable" ">=0.0.4 <1.0.0"
     colors "^1.3.0"
     find-up "^3.0.0"
     fs-extra "^8.1.0"
@@ -1931,7 +1930,7 @@ debug@^4.0.0, debug@^4.1.0, debug@^4.1.1:
   dependencies:
     ms "^2.1.1"
 
-debuglog@*, debuglog@^1.0.1:
+debuglog@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/debuglog/-/debuglog-1.0.1.tgz#aa24ffb9ac3df9a2351837cfb2d279360cd78492"
   integrity sha1-qiT/uaw9+aI1GDfPstJ5NgzXhJI=
@@ -2980,7 +2979,7 @@ import-local@^2.0.0:
     pkg-dir "^3.0.0"
     resolve-cwd "^2.0.0"
 
-imurmurhash@*, imurmurhash@^0.1.4:
+imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
@@ -4157,11 +4156,6 @@ lockfile@^1.0.4:
   dependencies:
     signal-exit "^3.0.2"
 
-lodash._baseindexof@*:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/lodash._baseindexof/-/lodash._baseindexof-3.1.0.tgz#fe52b53a1c6761e42618d654e4a25789ed61822c"
-  integrity sha1-/lK1OhxnYeQmGNZU5KJXie1hgiw=
-
 lodash._baseuniq@~4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash._baseuniq/-/lodash._baseuniq-4.6.0.tgz#0ebb44e456814af7905c6212fa2c9b2d51b841e8"
@@ -4170,32 +4164,10 @@ lodash._baseuniq@~4.6.0:
     lodash._createset "~4.0.0"
     lodash._root "~3.0.0"
 
-lodash._bindcallback@*:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/lodash._bindcallback/-/lodash._bindcallback-3.0.1.tgz#e531c27644cf8b57a99e17ed95b35c748789392e"
-  integrity sha1-5THCdkTPi1epnhftlbNcdIeJOS4=
-
-lodash._cacheindexof@*:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/lodash._cacheindexof/-/lodash._cacheindexof-3.0.2.tgz#3dc69ac82498d2ee5e3ce56091bafd2adc7bde92"
-  integrity sha1-PcaayCSY0u5ePOVgkbr9Ktx73pI=
-
-lodash._createcache@*:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/lodash._createcache/-/lodash._createcache-3.1.2.tgz#56d6a064017625e79ebca6b8018e17440bdcf093"
-  integrity sha1-VtagZAF2JeeevKa4AY4XRAvc8JM=
-  dependencies:
-    lodash._getnative "^3.0.0"
-
 lodash._createset@~4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/lodash._createset/-/lodash._createset-4.0.3.tgz#0f4659fbb09d75194fa9e2b88a6644d363c9fe26"
   integrity sha1-D0ZZ+7CddRlPqeK4imZE02PJ/iY=
-
-lodash._getnative@*, lodash._getnative@^3.0.0:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/lodash._getnative/-/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
-  integrity sha1-VwvH3t5G1hzc3mh9ZdPuy6o6r/U=
 
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
@@ -4241,11 +4213,6 @@ lodash.isstring@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
   integrity sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
-
-lodash.restparam@*:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
-  integrity sha1-k2pOMJ7zMKdkXtQUWYbIWuWyCAU=
 
 lodash.set@^4.3.2:
   version "4.3.2"
