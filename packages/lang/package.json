@@ -1,7 +1,6 @@
 {
   "name": "@emulsy/lang",
   "version": "0.0.1",
-  "private": false,
   "description": "Fundamental classes for the application design.",
   "keywords": [
     "error",
