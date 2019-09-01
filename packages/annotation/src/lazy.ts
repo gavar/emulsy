@@ -73,7 +73,9 @@ function lazyFactory<T>(constructor: boolean, factory: Function | Newable, param
     }
 
     function get(this: Record<K, T>): T {
-      const value = constructor ? new (factory as Newable)(...params) : factory.apply(this, params);
+      const value = constructor
+        ? new (factory as Newable)(...params)
+        : (factory as Function).apply(this, params);
       Object.defineProperty(this, key, {...WRITABLE, value});
       return value;
     }
