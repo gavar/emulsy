@@ -804,6 +804,11 @@
   resolved "https://registry.yarnpkg.com/@types/retry/-/retry-0.12.0.tgz#2b35eccfcee7d38cd72ad99232fbd58bffb3c84d"
   integrity sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==
 
+"@types/semantic-release@^15.13.0":
+  version "15.13.0"
+  resolved "https://registry.yarnpkg.com/@types/semantic-release/-/semantic-release-15.13.0.tgz#15793e0b3e84f7b05e616ff1240861dce1558c20"
+  integrity sha512-5X6Qoj3cSQ+gjqScNGJ70pPOiOs9RNpfivq6XoDj8tT6P9AmMmYNWOmmdDQSvFzOdz/bfpr0hq6Cw2uDZ4iIzw==
+
 "@types/semver@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-6.0.1.tgz#a984b405c702fa5a7ec6abc56b37f2ba35ef5af6"
@@ -877,7 +882,7 @@
     tslib "^1.10.0"
     tstt "^1.0.4"
 
-"@wrench/roll@^0.0.4":
+"@wrench/roll@>=0.0.4 <1.0.0":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@wrench/roll/-/roll-0.0.4.tgz#b7e24957c34c9a89a0ad8bdd6501323204971267"
   integrity sha512-uTWolPj6NPECNJhzPpsUN8b3Bkrc04Zjoc7044oyKWfiSPm1JRjkQGvHjlWQcKu7Eo3vNB85EBUluwwlvadSvw==
