@@ -1,3 +1,15 @@
+## [0.0.2](https://github.com/gavar/emulsy/compare/v/annotation/0.0.1...v/annotation/0.0.2) (2019-09-04)
+
+
+### Bug Fixes
+
+* `lazy` type errors ([c522635](https://github.com/gavar/emulsy/commit/c522635))
+
+
+### Features
+
+* closure ([6b7b252](https://github.com/gavar/emulsy/commit/6b7b252))
+
 ## 0.0.1 (2019-08-31)
 
 
