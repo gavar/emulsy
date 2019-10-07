@@ -1,6 +1,6 @@
 {
   "name": "@emulsy/compare",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Set of primitive tools to compare objects.",
   "keywords": [
     "compare",
