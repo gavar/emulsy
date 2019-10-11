@@ -1,3 +1,4 @@
+export * from "./arrays";
 export * from "./functions";
 export * from "./identity";
 export * from "./is";

@@ -1,4 +1,4 @@
-import { Arrays } from "../arrays";
+import { Arrays } from "@emulsy/belt";
 import { NoSuchElementException } from "../exception";
 import { Enumerator } from "./types";
 

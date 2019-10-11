@@ -1,4 +1,5 @@
-import { identity, identity2, iterator } from "@emulsy/util";
+import { identity, identity2 } from "@emulsy/belt";
+import { iterator } from "@emulsy/util";
 import { Find, FindSelector } from "./internal";
 import { isAsync, then } from "./then";
 import { Async, AsyncIterative, AsyncIterativeKey } from "./types";
