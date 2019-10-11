@@ -4,10 +4,8 @@
  */
 export function shallowDiffers(a: any, b: any): boolean {
   if (a !== b) {
-    // differs if one is null or undefined and other is not
     if (a == null) return b != null;
     if (b == null) return true;
-    // compare every property
     for (const k in a) if (!(k in b)) return true;
     for (const k in b) if (a[k] !== b[k]) return true;
   }
