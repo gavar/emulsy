@@ -983,10 +983,10 @@
   resolved "https://registry.yarnpkg.com/@wrench/ts-config/-/ts-config-0.0.2.tgz#04cac8e4bd0f8ac02080a9f8219f0f6b48ea7525"
   integrity sha512-fqKnXLY6U/M1e5OileFaX7hHBLFA1vJ1gSafHyVXWG9Z9CGWugjM4Wpjvud3YY/Ubsd2imTZWLsTqSADi2Kpkw==
 
-"@wrench/ywl@>=0.0.3 <1.0.0":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@wrench/ywl/-/ywl-0.0.4.tgz#f5b25df62bd999d6a7816ee03f113e8f41ddf8ed"
-  integrity sha512-AcoOaJt9SUhqcSreMqVf223i8FCXn/PxPDXKK11ZxsufEJciY5BgSEK6eS7ofp+2iUnDfFRCM/vdFm7SyH+IgA==
+"@wrench/ywl@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@wrench/ywl/-/ywl-0.0.10.tgz#d2fda693b548c90b6f507eb13e423e3963b9268e"
+  integrity sha512-AAdXKR2ma8BA6E1LqsajRWqAtGkAjaRVojWnqgmbFsPMCdvVqL/Jn4EprHatvQxUqH24iS8naWre+JsU7UqZpw==
   dependencies:
     "@wrench/executable" ">=0.0.4 <1.0.0"
     colors "^1.3.0"
@@ -994,6 +994,7 @@
     fs-extra "^8.1.0"
     lodash "^4.14"
     micromatch "^4.0.2"
+    resolve "^1.12.0"
     source-map-support "^0.5.12"
     tslib "^1.10.0"
     yargs "^13.3.0"
@@ -6204,7 +6205,7 @@ resolve@1.8.1:
   dependencies:
     path-parse "^1.0.5"
 
-resolve@1.x, resolve@^1.1.6, resolve@^1.10.0, resolve@^1.3.2:
+resolve@1.x, resolve@^1.1.6, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.3.2:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.12.0.tgz#3fc644a35c84a48554609ff26ec52b66fa577df6"
   integrity sha512-B/dOmuoAik5bKcD6s6nXDCjzUKnaDvdkRyAk6rsmsKLipWj4797iothd7jmmUhWTfinVMU+wc56rYKsit2Qy4w==
@@ -7104,6 +7105,11 @@ tstt@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/tstt/-/tstt-1.0.4.tgz#bff5a2d2ccd28402127319c8bbcf9cbd599b9801"
   integrity sha512-SFDCmzQbxhc/4Sf2tQ0OOeoCIKldawPnLOwwJ3k6Rr+0YiC1gtmSfeVAPNxDMvN3USIY/9cuF2ZiYTVNKuUWUQ==
+
+tstt@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/tstt/-/tstt-1.0.6.tgz#d08c5da78a7c17d1570244bccde14056079952cc"
+  integrity sha512-a4wBPyaJUZDMdTqm0sZs5qv8HPik+RHSdp1TSbehqpfS9F9SgTuaNk2M+xOLov8n9UqzTcBA+rQjebnOuOPhtg==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
