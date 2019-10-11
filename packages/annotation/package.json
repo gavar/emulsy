@@ -43,7 +43,7 @@
     "test": "jest --config ../../package.json --rootDir ."
   },
   "dependencies": {
-    "tstt": "^1.0.4"
+    "tstt": "^1.0.6"
   },
   "devDependencies": {},
   "publishConfig": {
