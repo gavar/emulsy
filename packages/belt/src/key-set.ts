@@ -5,7 +5,9 @@ import { isKey } from "@emulsy/belt";
  * Provides faster method for unique value lookup.
  * @see https://jsperf.com/object-vs-set-contains performance test
  */
-export type KeySet<K extends keyof any = keyof any, V = any> = Record<K, any>
+export type KeySet<K extends keyof any = keyof any, V = any> = {
+  [P in K]?: any;
+}
 
 export const KeySet: KeySetConstructor = Object.assign(KeySetFactory as any, {
   empty: Object.freeze({}),
