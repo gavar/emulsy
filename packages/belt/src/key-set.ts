@@ -9,6 +9,11 @@ export type KeySet<K extends keyof any = keyof any, V = any> = {
   [P in K]?: any;
 }
 
+/**
+ * KeySet is an object containing keys with any.
+ * Proven to be fastest way for key lookup.
+ * @see https://jsperf.com/object-vs-set-contains
+ */
 export const KeySet: KeySetConstructor = Object.assign(KeySetFactory as any, {
   empty: Object.freeze({}),
 });
