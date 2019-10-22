@@ -983,7 +983,7 @@
   resolved "https://registry.yarnpkg.com/@wrench/ts-config/-/ts-config-0.0.2.tgz#04cac8e4bd0f8ac02080a9f8219f0f6b48ea7525"
   integrity sha512-fqKnXLY6U/M1e5OileFaX7hHBLFA1vJ1gSafHyVXWG9Z9CGWugjM4Wpjvud3YY/Ubsd2imTZWLsTqSADi2Kpkw==
 
-"@wrench/ywl@^0.0.10":
+"@wrench/ywl@>=0.0.10 <1.0.0":
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/@wrench/ywl/-/ywl-0.0.10.tgz#d2fda693b548c90b6f507eb13e423e3963b9268e"
   integrity sha512-AAdXKR2ma8BA6E1LqsajRWqAtGkAjaRVojWnqgmbFsPMCdvVqL/Jn4EprHatvQxUqH24iS8naWre+JsU7UqZpw==
