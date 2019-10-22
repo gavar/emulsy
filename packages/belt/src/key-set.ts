@@ -6,7 +6,7 @@ import { isKey } from "@emulsy/belt";
  * @see https://jsperf.com/object-vs-set-contains performance test
  */
 export type KeySet<K extends keyof any = keyof any, V = any> = {
-  [P in K]?: any;
+  [P in K]?: V;
 }
 
 /**
