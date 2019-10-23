@@ -8,8 +8,8 @@ config.workspace = {
   ...config.workspace,
 };
 
-config.workspace = {
-  ...config.workspace,
+config.packages = {
+  ...config.packages,
 };
 
 module.exports = config;
