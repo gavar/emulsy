@@ -1,5 +1,5 @@
+import { cyan, magenta } from "colors";
 import { TypeDef } from "..";
-import { green, red, magenta, cyan } from "colors";
 
 abstract class AbstractExample {}
 class Example extends AbstractExample {}

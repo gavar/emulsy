@@ -43,7 +43,7 @@ export function defer<T>(): Defer<T> {
 }
 
 const that: Defer = {} as any;
-const none: Defer = { resolve: null, reject: null } as any;
+const none: Defer = {resolve: null, reject: null} as any;
 
 function executor<T>(resolve: PromiseResolve<T>, reject: PromiseReject): void {
   that.resolve = resolve;

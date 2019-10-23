@@ -1,4 +1,4 @@
-import { Newable, Abstract } from "tstt";
+import { Abstract, Newable } from "tstt";
 
 /**
  * Type identifier for runtime types affected by type erasure (interfaces, type definitions, etc).
