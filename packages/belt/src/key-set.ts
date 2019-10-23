@@ -1,4 +1,4 @@
-import { isKey } from "@emulsy/belt";
+import { isKey } from "./is";
 
 /**
  * Object containing unique set of values as keys.
