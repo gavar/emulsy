@@ -1,4 +1,4 @@
-import { Falsy, Func, Nil } from "tstt";
+import { Falsy, Func, Nil, TypeOf } from "tstt";
 
 export function isNil(value: any): value is Nil {
   return typeof value === "undefined" || value === null;
@@ -36,13 +36,14 @@ export function isFunction<T extends Func = Func>(value: any): value is T {
   return typeof value === "function";
 }
 
+const keyType: Partial<Record<TypeOf, boolean>> = {
+  number: true,
+  string: true,
+  symbol: true,
+};
+
 export function isKey<K extends keyof any>(key: K | any): key is K {
-  switch (typeof key) {
-    case "number":
-    case "string":
-    case "symbol":
-      return true;
-  }
+  return !!keyType[typeof key];
 }
 
 /**
