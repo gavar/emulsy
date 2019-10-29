@@ -1,3 +1,16 @@
+## [0.0.2](https://github.com/gavar/emulsy/compare/v/belt/0.0.1...v/belt/0.0.2) (2019-10-29)
+
+
+### Bug Fixes
+
+* imporove key checks ([45ae4f4](https://github.com/gavar/emulsy/commit/45ae4f44bf77a78ac053db8ac32a8ba193104a50))
+* minor tweaks ([a4ceb2c](https://github.com/gavar/emulsy/commit/a4ceb2cba5ec6d89961e94511050657415bf15ea))
+
+
+### Features
+
+* allow KeySet to be called without new ([b144f78](https://github.com/gavar/emulsy/commit/b144f78e49b2988d1d9acc594052197ca3f596f3))
+
 ## 0.0.1 (2019-10-23)
 
 
