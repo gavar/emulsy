@@ -7573,10 +7573,15 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
 
-tstt@^1.0.4, tstt@^1.0.6:
+tstt@^1.0.4:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/tstt/-/tstt-1.0.6.tgz#d08c5da78a7c17d1570244bccde14056079952cc"
   integrity sha512-a4wBPyaJUZDMdTqm0sZs5qv8HPik+RHSdp1TSbehqpfS9F9SgTuaNk2M+xOLov8n9UqzTcBA+rQjebnOuOPhtg==
+
+tstt@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/tstt/-/tstt-1.0.7.tgz#cccb09e85f58eea40b45b9b2045b7c8058941526"
+  integrity sha512-Rimg9A8kTS3lzeUh2hOgjlc7gzsCmpryircPSX6NEHsSIcsT6AP7buNQRggbayGZ1HxRD8qD8+rbbuwIElNRNg==
 
 tsutils@^3.17.1:
   version "3.17.1"
