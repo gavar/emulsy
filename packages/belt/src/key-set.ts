@@ -21,27 +21,12 @@ export const KeySet = function <K extends keyof any>(this: KeySet<K>, ...params:
   return set;
 } as KeySetConstructor;
 
-Object.assign(KeySet, {
-  empty: Object.freeze({}),
-} as KeySetConstructor);
-
+/** {@link KeySet} constructor and static members. */
 export interface KeySetConstructor {
   /**
    * Create new instance of {@link KeySet} from provided key names.
    * @param keys - array of key names to use in a key set.
-   */
-  new<K extends keyof any>(keys: K[]): KeySet<K, true>;
-
-  /**
-   * Create new instance of {@link KeySet} from provided key names.
-   * @param keys - array of key names to use in a key set.
    */<K extends keyof any>(keys: K[]): KeySet<K, true>;
-
-  /**
-   * Create new instance of {@link KeySet} from provided key names.
-   * @param keys - array of key names to use in a key set.
-   */
-  new<K extends keyof any>(...keys: K[]): KeySet<K, true>;
 
   /**
    * Create new instance of {@link KeySet} from provided key names.
@@ -51,17 +36,33 @@ export interface KeySetConstructor {
   /**.
    * Create new instance of {@link KeySet} with {@link Object.keys keys} of provided source object.
    * @param source - object containing keys to create key set from.
+   */<K extends keyof any>(source: Record<K, any>): KeySet<K, true>;
+
+  /**
+   * Create new instance of {@link KeySet} from provided key names.
+   * @param keys - array of key names to use in a key set.
    */
-  new<K extends keyof any>(source: Record<K, any>): KeySet<K, true>;
+  new<K extends keyof any>(keys: K[]): KeySet<K, true>;
+
+  /**
+   * Create new instance of {@link KeySet} from provided key names.
+   * @param keys - array of key names to use in a key set.
+   */
+  new<K extends keyof any>(...keys: K[]): KeySet<K, true>;
 
   /**.
    * Create new instance of {@link KeySet} with {@link Object.keys keys} of provided source object.
    * @param source - object containing keys to create key set from.
-   */<K extends keyof any>(source: Record<K, any>): KeySet<K, true>;
+   */
+  new<K extends keyof any>(source: Record<K, any>): KeySet<K, true>;
 
   /** Immutable empty instance of {@link KeySet}. */
   readonly empty: Readonly<KeySet>;
 }
+
+Object.assign(KeySet, {
+  empty: Object.freeze({}),
+} as KeySetConstructor);
 
 function toKeys<T>(params: T[]): T[] {
   if (params.length === 1) {
