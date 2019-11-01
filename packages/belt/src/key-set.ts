@@ -14,7 +14,7 @@ export type KeySet<K extends keyof any = keyof any, V = any> = {
  * Proven to be fastest way for key lookup.
  * @see https://jsperf.com/object-vs-set-contains
  */
-export const KeySet = function <K extends keyof any>(this: KeySet<K>, ...params: K[]) {
+export const KeySet = function KeySet <K extends keyof any>(this: KeySet<K>, ...params: K[]) {
   const set = new.target ? this : {} as KeySet<K>;
   const keys = toKeys(params);
   for (const key of keys) set[key] = true;
