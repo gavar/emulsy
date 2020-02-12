@@ -886,10 +886,10 @@
   dependencies:
     colors "^1.3.0"
 
-"@wrench/roll-typescript@>=0.0.3 <1.0.0":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@wrench/roll-typescript/-/roll-typescript-0.0.3.tgz#8fe965d0bf96f3d2b45fcb1cf722d98b51315079"
-  integrity sha512-irFFbkhPxDgv0vV/vj0JFU05b2PyWr2xt4GBj3dEd75gVFYIP8MaLtKnmYIblOKS/JPnBdfwvJu/jZgHNr61CQ==
+"@wrench/roll-typescript@>=0.0.4 <1.0.0":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@wrench/roll-typescript/-/roll-typescript-0.0.4.tgz#742231385611174c7d1a613deeac186f6aa60451"
+  integrity sha512-OPXd3SV86VT3O/3BUd9/Nt5DA+9Z5fIjarfNSzrtuNeMX3bOhm7CRHdCxKeEJOAN6g2SM7+gK3GkhRHv8/ZNwg==
   dependencies:
     "@microsoft/api-extractor" "^7.5.2"
     "@typescript-eslint/eslint-plugin" "^2.6.0"
@@ -901,13 +901,13 @@
     tslib "^1.10.0"
     tstt "^1.0.4"
 
-"@wrench/roll@>=0.0.7 <1.0.0":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@wrench/roll/-/roll-0.0.7.tgz#e0216012822ab990c001f4d8c90819aace07ee64"
-  integrity sha512-fjRcr7oc0cBIOCW+/o9SpJzuUT119COFjoYiTn6XqouGDFunW8eKw3Nnc3sh7yKwUzffWNKnDwPyNlrEIbpPdA==
+"@wrench/roll@>=0.0.8 <1.0.0":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@wrench/roll/-/roll-0.0.8.tgz#a3686473dc94f7d33648d4ab816ffcf96d6f5666"
+  integrity sha512-nQT9bWYAO9tKBs5g5Ch4v2dPb6pgkp/PqW0qXeOY9tY0oi6b7B12AG8u8DQJSS7aNUwMU86fW97XFgtFlj8lWg==
   dependencies:
     "@wrench/executable" ">=0.0.5 <1.0.0"
-    "@wrench/roll-typescript" ">=0.0.3 <1.0.0"
+    "@wrench/roll-typescript" ">=0.0.4 <1.0.0"
     colors "^1.3.0"
     rollup "^1.19.2"
     rollup-plugin-cleanup-chunk ">=0.0.2 <1.0.0"
