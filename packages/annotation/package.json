@@ -27,14 +27,13 @@
   },
   "files": [
     "lib",
-    "es",
     "esm2015",
     "esm5",
     "fesm2015",
     "fesm5"
   ],
   "main": "lib/index.js",
-  "module": "es/index.js",
+  "module": "esm5/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "yarn clean && roll",
@@ -65,6 +64,7 @@
       "tstt": "../.."
     }
   },
+  "es2015": "esm2015/index.js",
   "esm2015": "esm2015/index.js",
   "esm5": "esm5/index.js",
   "fesm2015": "fesm2015/index.js",
