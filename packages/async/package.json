@@ -1,6 +1,6 @@
 {
   "name": "@emulsy/async",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utility providing functions to work with asynchronous programs which may complete synchronously",
   "keywords": [
     "async",
@@ -53,8 +53,8 @@
     "preset": "ts-jest"
   },
   "dependencies": {
-    "@emulsy/belt": ">=0.0.1 <1.0.0",
-    "@emulsy/util": ">=0.0.2 <1.0.0",
+    "@emulsy/belt": ">=0.0.3 <1.0.0",
+    "@emulsy/util": ">=0.0.3 <1.0.0",
     "lodash": "^4.17.13",
     "tslib": "^1.10.0",
     "tstt": "^1.0.7"

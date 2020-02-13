@@ -1,21 +1,21 @@
 {
-  "name": "@emulsy/compare",
-  "version": "0.0.3",
-  "description": "Set of primitive tools to compare objects.",
+  "name": "@emulsy/http",
+  "version": "0.0.0",
+  "description": "Abstraction layer of HTTP client.",
   "keywords": [
-    "compare",
-    "equality",
-    "shallow-differs",
+    "HttpClient",
+    "abstract",
+    "http",
     "typescript"
   ],
-  "homepage": "https://github.com/gavar/emulsy/tree/master/packages/compare#readme",
+  "homepage": "https://github.com/gavar/emulsy/tree/master/packages/http#readme",
   "bugs": {
-    "url": "https://github.com/gavar/emulsy/labels/compare"
+    "url": "https://github.com/gavar/emulsy/labels/http"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/gavar/emulsy.git",
-    "directory": "packages/compare"
+    "directory": "packages/http"
   },
   "license": "ISC",
   "author": {
@@ -25,18 +25,14 @@
   },
   "files": [
     "lib",
-    "es",
-    "esm2015",
-    "esm5",
-    "fesm2015",
-    "fesm5"
+    "es"
   ],
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "yarn clean && roll",
-    "clean": "rimraf tmp out lib es* fes* bin/lib *.tgz",
+    "clean": "rimraf tmp out lib es bin/lib *.tgz",
     "format": "yarn lint --fix",
     "format:pack": "fixpack && sort-package-json",
     "lint": "echo no linting yet",
@@ -47,9 +43,6 @@
   "jest": {
     "preset": "ts-jest"
   },
-  "dependencies": {
-    "tslib": "^1.10.0"
-  },
   "devDependencies": {},
   "publishConfig": {
     "access": "public"
@@ -58,18 +51,11 @@
     "author": "../..",
     "license": "../..",
     "repository": "../..",
-    "publishConfig": "../..",
-    "dependencies": {
-      "tslib": "../.."
-    }
+    "publishConfig": "../.."
   },
-  "esm2015": "esm2015/index.js",
-  "esm5": "esm5/index.js",
-  "fesm2015": "fesm2015/index.js",
-  "fesm5": "fesm5/index.js",
   "release": true,
   "standard-version": {
     "extends": "@wrench/standard-version-config",
-    "tag-prefix": "v/compare/"
+    "tag-prefix": "v/http/"
   }
 }

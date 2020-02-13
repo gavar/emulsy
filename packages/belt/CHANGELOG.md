@@ -1,3 +1,15 @@
+## [0.0.3](https://github.com/gavar/emulsy/compare/v/belt/0.0.2...v/belt/0.0.3) (2020-02-13)
+
+
+### Bug Fixes
+
+* `KeySet` function name ([e8a2a48](https://github.com/gavar/emulsy/commit/e8a2a48fbd9856f15b9216fb2d3be2db71c711dc))
+
+
+### Features
+
+* add support for Angular Package Format ([b4bc70b](https://github.com/gavar/emulsy/commit/b4bc70b03c990609e34167258796890ffbdd21a8))
+
 ## [0.0.2](https://github.com/gavar/emulsy/compare/v/belt/0.0.1...v/belt/0.0.2) (2019-10-29)
 
 

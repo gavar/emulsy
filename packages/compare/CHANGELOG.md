@@ -1,3 +1,10 @@
+## [0.0.3](https://github.com/gavar/emulsy/compare/v/compare/0.0.2...v/compare/0.0.3) (2020-02-13)
+
+
+### Features
+
+* add support for Angular Package Format ([b4bc70b](https://github.com/gavar/emulsy/commit/b4bc70b03c990609e34167258796890ffbdd21a8))
+
 ## [0.0.2](https://github.com/gavar/emulsy/compare/v/compare/0.0.1...v/compare/0.0.2) (2019-10-23)
 
 
