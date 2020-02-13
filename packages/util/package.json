@@ -45,7 +45,8 @@
   "dependencies": {
     "@emulsy/belt": ">=0.0.0 <1.0.0",
     "@emulsy/lang": ">=0.0.2 <1.0.0",
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.13",
+    "tslib": "^1.10.0"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.137"
@@ -63,7 +64,8 @@
     "dependencies": {
       "@emulsy/belt": "../belt",
       "@emulsy/lang": "../lang",
-      "lodash": "../.."
+      "lodash": "../..",
+      "tslib": "../.."
     }
   },
   "release": true,
