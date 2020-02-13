@@ -901,10 +901,10 @@
     tslib "^1.10.0"
     tstt "^1.0.4"
 
-"@wrench/roll@>=0.0.8 <1.0.0":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@wrench/roll/-/roll-0.0.8.tgz#a3686473dc94f7d33648d4ab816ffcf96d6f5666"
-  integrity sha512-nQT9bWYAO9tKBs5g5Ch4v2dPb6pgkp/PqW0qXeOY9tY0oi6b7B12AG8u8DQJSS7aNUwMU86fW97XFgtFlj8lWg==
+"@wrench/roll@>=0.0.10 <1.0.0":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@wrench/roll/-/roll-0.0.10.tgz#cd33795d9f80a86c4e8bee3236ac2dfc44870116"
+  integrity sha512-KG/aUuyJkk9uIEtMn4AdCAHcZGHN7eZlY0V1FJFVF2hIIdM/x1LnXMxK/pcelunf6WA86xEVAxkB93QHKYiEPQ==
   dependencies:
     "@wrench/executable" ">=0.0.5 <1.0.0"
     "@wrench/roll-typescript" ">=0.0.4 <1.0.0"
