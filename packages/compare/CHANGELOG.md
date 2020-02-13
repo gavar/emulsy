@@ -1,3 +1,10 @@
+## [0.0.4](https://github.com/gavar/emulsy/compare/v/compare/0.0.3...v/compare/0.0.4) (2020-02-13)
+
+
+### Bug Fixes
+
+* module format for Angular compatibility ([3544d31](https://github.com/gavar/emulsy/commit/3544d317b893b62b167a4d374e2550050b19d0ee))
+
 ## [0.0.3](https://github.com/gavar/emulsy/compare/v/compare/0.0.2...v/compare/0.0.3) (2020-02-13)
 
 
