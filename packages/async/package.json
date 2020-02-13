@@ -30,14 +30,18 @@
   },
   "files": [
     "lib",
-    "es"
+    "es",
+    "esm2015",
+    "esm5",
+    "fesm2015",
+    "fesm5"
   ],
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "yarn clean && roll",
-    "clean": "rimraf tmp out lib es bin/lib *.tgz",
+    "clean": "rimraf tmp out lib es* fes* bin/lib *.tgz",
     "format": "yarn lint --fix",
     "format:pack": "fixpack && sort-package-json",
     "lint": "echo no linting yet",
@@ -76,6 +80,10 @@
       "tstt": "../.."
     }
   },
+  "esm2015": "esm2015/index.js",
+  "esm5": "esm5/index.js",
+  "fesm2015": "fesm2015/index.js",
+  "fesm5": "fesm5/index.js",
   "release": true,
   "standard-version": {
     "extends": "@wrench/standard-version-config",
